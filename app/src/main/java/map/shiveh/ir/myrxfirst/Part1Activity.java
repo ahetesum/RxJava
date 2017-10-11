@@ -29,7 +29,7 @@ public class Part1Activity extends AppCompatActivity
         subscribeButton=findViewById(R.id.part1_subscribe_btn);
 
 
-        stringObservable= Observable.just("Hello From RxJava");
+        stringObservable= Observable.just(getMessage());
 
         stringObserver=new Observer<String>()
         {
@@ -68,6 +68,11 @@ public class Part1Activity extends AppCompatActivity
             }
         });
 
+    }
+
+    private String getMessage()
+    {
+        return "Hello From RxJava";
     }
 
     private void setSubscribedResponse(String s)
