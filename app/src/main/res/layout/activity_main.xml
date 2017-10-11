@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="map.shiveh.ir.myrxfirst.MainActivity">
+    <Button
+        android:layout_margin="10dp"
+        android:id="@+id/main_part1_btn"
+        android:text="Part 1 ( Hello RxJava )"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_below="@+id/main_part1_btn"
+        android:layout_margin="10dp"
+        android:id="@+id/main_part2_btn"
+        android:text="Part 2 ( Simple Api Call)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_below="@+id/main_part2_btn"
+        android:layout_margin="10dp"
+        android:id="@+id/main_part3_btn"
+        android:text="Part 3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_below="@+id/main_part3_btn"
+        android:layout_margin="10dp"
+        android:id="@+id/main_part4_btn"
+        android:text="Part 4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_below="@+id/main_part4_btn"
+        android:layout_margin="10dp"
+        android:id="@+id/main_part5_btn"
+        android:text="Part 5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_below="@+id/main_part5_btn"
+        android:layout_margin="10dp"
+        android:id="@+id/main_part6_btn"
+        android:text="Part 6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
